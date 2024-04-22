@@ -1,0 +1,92 @@
+/* index */
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('./src/assets/imagenes/imagen_fondo.png');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.caja {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+.contenedor1 {
+    background-color: rgba(255, 255, 255, 0.116);
+    flex: 10px;
+    margin-top: 100px;
+
+}
+
+.superpuesto {
+    flex: 10px;
+    margin-top: 200px;
+    margin-left: 110px;
+
+}
+
+.texto-index {
+    color: white;
+    flex: 10px;
+    margin-top: 120px;
+    margin-left: 110px;
+}
+
+.texto-index h2 h3 p {
+
+    font-size: 24px;
+}
+
+
+
+/* index */
+
+@media (max-width: 952px) {
+
+    body {
+
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url('./src/assets/imagenes/imagen_fondo.png');
+        background-size: cover;
+
+    }
+
+    .caja {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-direction: column;
+        margin-left: -30px;
+        background-size: cover;
+    }
+
+
+    .caja .contenedor1 {
+        background-color: transparent;
+    }
+
+    .superpuesto {
+        margin-top: 200px;
+        margin-left: 50px;
+
+    }
+
+    .superpuesto img {
+        width: 300px;
+    }
+
+    .texto-index {
+        color: white;
+    }
+
+
+
+}
