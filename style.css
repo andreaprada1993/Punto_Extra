@@ -1,23 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-
 /* navbar*/
-.logo {
-    width: 150px;
-    height: 70px;
-}
+
 
 header {
     background-color: #151835;
     box-shadow: 0 6px 4px gold;
-    color: gold;
+}
 
+.logo {
+    width: 100px;
+    height: 90px;
+    margin-left: 50px;
 }
 
 .menu_interno .nav-item .nav-link {
     font-size: x-large;
     color: white;
+
 }
 
 
@@ -96,32 +97,21 @@ header {
 /* navbar*/
 
 .footer {
-    display: none;
+    
 
 }
 
-
-@media (max-width: 952px) {
     .footer {
-        width: 100%;
         background-image: url('./src/assets/imagenes/imagen_footer.jpg');
-        min-height: 100px;
-        padding: 20px 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: fixed;
-        bottom: 0;
+        display: grid;
+        background-size: cover;
+
     }
 
     .social-icon {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        margin: 10px 5px;
+        margin: 10px 10px;
         flex-wrap: wrap;
+        margin-left: 35%;
     }
 
     .icon-elem {
@@ -176,4 +166,3 @@ header {
     }
 
 
-}
